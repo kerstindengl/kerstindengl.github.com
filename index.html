@@ -8,31 +8,9 @@
   "text/html; charset=us-ascii">
 
   <title>Moppetilicious Gallery</title>
-  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="global.css" rel="stylesheet" type="text/css" />
   <style type="text/css">
-  .photo img {
-        border: 1px solid #666;
-        background-color: #FFF;
-        padding: 4px;
-        position: relative;
-        top: -5px;
-        left:-5px;
-    }
-    .figure p {
-        font: 1.1em/normal Arial, Helvetica, sans-serif;
-        text-align: center;
-        margin: 10px 0 0 0;
-        height: 5em;
-    }
-    .figure {
-        float: left;
-        width: 210px;
-        margin: 0 10px 10px 10px;
-    }
-
-    .photo {
-        background: url(drop_shadow.gif) right bottom no-repeat;
-    }
 
     .header {
         float: left;
@@ -42,84 +20,89 @@
 
     .content {
         float: left;
-        width: 210px;
-        margin: 0 10px 10px 10px;
+        zidth: 210px;
+        zargin: 0 10px 10px 10px;
     }
 
-    .footer {
-        float: left;
-        width: 210px;
-        margin: 0 10px 10px 10px;
+    img {
+        height: 200px;
     }
 
   </style>
 </head>
 
 <body>
-    <div id="header">
-        <div class="header">
-            <div class="logo">
-                <p>
-                    LOGO
-                </p>
+    <div id="wrapper">
+        <div id="header">
+            <div class="header">
+                <div class="logo">
+                    <p>
+                        LOGO
+                    </p>
+                </div>
             </div>
+
+            <div class="header">
+                <div class="banner">
+                    <p>
+                        BANNER
+                    </p>
+                </div>
+            </div>
+
+            <div class="header">
+                <div class="random">
+                    <p>
+                        RANDOM
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="header">
-            <div class="banner">
-                <p>
-                    BANNER
-                </p>
-            </div>
-        </div>
+        <p>
+        <br />
 
-        <div class="header">
-            <div class="random">
-                <p>
-                    RANDOM
-                </p>
-            </div>
-        </div>
+        <div id="content">
+            <h1>WELCOME ABOARD</h1>
 
-    </div>
-
-
-    <div id="content">
-        <div class="content">
-            <div class="main">
-                <center>
+            <div class="content">
+                <div class="main">
                     <img src="images/fingerlove2.jpg" alt="Sorry" />
-                </center>
+                </div>
             </div>
+
+            <div class="content">
+                <div class="sidebar">
+                    <p>
+                        SIDEBAR
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="content">
-            <div class="sidebar">
-                <p>
-                    SIDEBAR
-                </p>
+        <p>
+        <br />
+
+        <div id="footer">
+            <div class="footer">
+                <div class="copyright">
+                    <p>
+                        Copyright 2011, Moppet Enterprises
+                    </p>
+                </div>
             </div>
-        </div>
 
-    </div>
-
-    <div id="footer">
-        <div class="footer">
-            <div class="copyright">
-                <p>
-                    Copyright 2011, Moppet Enterprises
-                </p>
+            <div class="footer">
+                <div class="contact">
+                    <p>
+                        CONTACT
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="footer">
-            <div class="contact">
-                <p>
-                    CONTACT
-                </p>
-            </div>
         </div>
-
     </div>
 
 </body>
