@@ -83,7 +83,19 @@ br.clear {
 
 /* image replacement technique */
 #banner p.logo {
-	background: url(images/logo.gif) no-repeat left top;
+	background: url(images/logo.jpg) no-repeat left top;
+	height: 70px;
+	text-indent: -5000px;
+}
+
+p.logo {
+	background: url(images/logo.jpg) no-repeat left top;
+	height: 70px;
+	text-indent: -5000px;
+}
+
+.togo {
+	background: url(images/logo.jpg) no-repeat left top;
 	height: 70px;
 	text-indent: -5000px;
 }
