@@ -1,0 +1,104 @@
+/*
+    Moppets style settings... [Design by Muppet].
+*/
+body
+{
+	font             : 100%/1.2em sans-serif;
+	padding          : 20px 10%;
+	margin           : 0;
+	color            : #eee;
+	background-color : #336;
+}
+
+h1, h2
+{
+	font-size   : 1.6em;
+	font-weight : normal;
+	margin      : 0;
+}
+
+h2
+{
+	font-size  : 1.3em;
+	margin-top : 1.5em;
+}
+
+p.links
+{
+	font-size   : 1.6em;
+	font-weight : bold;
+	text-align  : center;
+}
+
+/* ability to make text glow when hovering over it */
+a.glow, a.glow:hover, a.glow:focus
+{
+	text-decoration    : none;
+	color              : #aaf;
+	text-shadow        : none;
+	-webkit-transition : 500ms linear 0s;
+	-moz-transition    : 500ms linear 0s;
+	-o-transition      : 500ms linear 0s;
+	transition         : 500ms linear 0s;
+	outline            : 0 none;
+}
+
+a.glow:hover, a.glow:focus
+{
+	color       : #fff;
+	text-shadow : -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+.textshadow a.backlit:hover, .textshadow a.backlit:focus
+{
+	color : #336;
+}
+
+#main
+{
+    height      : 500px;
+    text-align  : center;
+    font-size   : 1.5em;
+    line-height : 15em;
+}
+
+#copyright
+{
+    text-align : right;
+    font-size  : 0.5em;
+}
+
+#fade-transition
+{
+    float : left;
+}
+
+.level2-345-border-radius
+{
+    -webkit-border-radius : 30px;
+    -moz-border-radius    : 20px;
+    border-radius         : 10px;
+}
+
+.level2-345-text-shadow
+{
+    text-shadow : 0px -1px 5px #000;
+}
+
+.level2-345-letterpress-effect
+{
+    color       : #222;
+    text-shadow : 0px 2px 3px #555;
+    font-size   : 2.0em;
+}
+
+.level2-345-box-shadow
+{
+    box-shadow : 4px 4px 5px #282b1f;
+}
+
+.level2-345-box-shadow-inset
+{
+    box-shadow : inset 4px 4px 5px #282b1f;
+}
+
