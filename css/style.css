@@ -3,7 +3,12 @@
 */
 body
 {
+	/*
 	font             : 100%/1.2em sans-serif;
+	*/
+	font-family      : Jane-Austen;
+	font-size        : 1.6em;
+	font-weight      : bold;
 	padding          : 20px 10%;
 	margin           : 0;
 	color            : #eee;
@@ -102,3 +107,7 @@ a.glow:hover, a.glow:focus
     box-shadow : inset 4px 4px 5px #282b1f;
 }
 
+@font-face {
+  font-family: 'Jane-Austen';
+    src: url('../fonts/JaneAust.ttf') format('truetype');
+}
