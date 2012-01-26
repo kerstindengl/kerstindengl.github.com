@@ -147,3 +147,23 @@ a.glow:hover, a.glow:focus
   font-family: 'Jellyka_Castles_Queen';
     src: url('../fonts/Jellyka_Castles_Queen.ttf') format('truetype');
 }
+
+
+/*
+    --------------------------------------------------------------------
+*/
+#404img
+{
+    position           : absolute;
+    background         : url(../images/fingerlove4.jpg) no-repeat;
+    -webkit-transition : opacity .2s ease-in-out;
+    -moz-transition    : opacity .2s ease-in-out;
+    -o-transition      : opacity .2s ease-in-out;
+    transition         : opacity .2s ease-in-out;
+}
+
+#404img:hover
+{
+    opacity : 0.30;
+}
+
