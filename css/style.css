@@ -12,6 +12,7 @@ body
 	font-family      : resurgence;
 	font-family      : alphabetism;
 	font-family      : kkadpass;
+	font-family      : radioactive;
 	*/
 	font-family      : Jellyka_Castles_Queen;
 	font-size        : 1.6em;
@@ -25,6 +26,15 @@ body
 	*/
 	background-color : #366;
 }
+
+
+body.404
+{
+	font-family      : radioactive;
+	font-size        : 3.0em;
+	font-weight      : normal;
+}
+
 
 h1, h2
 {
@@ -101,6 +111,16 @@ a.glow:hover, a.glow:focus
 @font-face {
   font-family: 'Jane-Austen';
     src: url('../fonts/JaneAust.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'radioactive';
+    src: url('../fonts/radioactive.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tommys';
+    src: url('../fonts/tommys.ttf') format('truetype');
 }
 
 @font-face {
