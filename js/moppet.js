@@ -1,3 +1,4 @@
 $(document).ready(function(){
-  // alert("jquery loaded");
+  var title = $('head title').text();
+  //alert(title);
 });
