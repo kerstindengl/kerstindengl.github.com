@@ -7,16 +7,22 @@ body
 	font             : 100%/1.2em sans-serif;
 	*/
 	/*
-	font-family      : Jane-Austen;
-	font-family      : arizona;
-	font-family      : resurgence;
-	font-family      : alphabetism;
-	font-family      : kkadpass;
-	font-family      : radioactive;
-	font-family      : tommys;
+	font-family        : adrinkforallages;
+	font-family        : alphabetism;
+	font-family        : arizona;
+	font-family        : Jane-Austen;
+	font-family        : Jellyka_Castles_Queen;
+	font-family        : kkadpass;
+	font-family        : radioactive;
+	font-family        : resurgence;
+	font-family        : sirtalksalot;
+	font-family        : sketchrockwell;
+	font-family        : splendid66;
+	font-family        : tireshop;
+	font-family        : tommys;
 	*/
-	font-family      : Jellyka_Castles_Queen;
-	font-size        : 1.6em;
+	font-family      : adrinkforallages;
+	font-size        : 1.0em;
 	font-weight      : normal;
 	padding          : 20px 10%;
 	margin           : 0;
@@ -128,6 +134,11 @@ a.glow:hover, a.glow:focus
 }
 
 @font-face {
+  font-family: 'adrinkforallages';
+    src: url('../fonts/A_Drink_For_All_Ages.TTF') format('truetype');
+}
+
+@font-face {
   font-family: 'alphabetism';
     src: url('../fonts/AnAlphaBetIsm.ttf') format('truetype');
 }
@@ -142,19 +153,39 @@ a.glow:hover, a.glow:focus
     src: url('../fonts/Jellyka_Castles_Queen.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'splendid66';
+    src: url('../fonts/SplendidN.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tireshop';
+    src: url('../fonts/tireshop_demo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sirtalksalot';
+    src: url('../fonts/SirTalksALot.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'sketchrockwell';
+    src: url('../fonts/SketchRockwell-Bold.ttf') format('truetype');
+}
+
 
 /*
-    --------------------------------------------------------------------
+    ----- 404 ----- 404 ----- 404 ----- 404 ----- 404 ----- 404 -----
 */
-.fourOfour
+.fourOhfour
 {
-	font-family      : tommys;
+	font-family      : tireshop;
 	font-size        : 3.0em;
 	font-weight      : normal;
 }
 
 
-#fourOfour
+#fourOhfour
 {
     position           : absolute;
     background         : url(../images/fingerlove4.jpg) no-repeat;
@@ -164,7 +195,7 @@ a.glow:hover, a.glow:focus
     transition         : opacity .2s ease-in-out;
 }
 
-#fourOfour:hover
+#fourOhfour:hover
 {
     opacity : 0.30;
 }
