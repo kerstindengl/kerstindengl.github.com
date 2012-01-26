@@ -146,7 +146,7 @@ a.glow:hover, a.glow:focus
 /*
     --------------------------------------------------------------------
 */
-.404
+.fourOfour
 {
 	font-family      : tommys;
 	font-size        : 3.0em;
@@ -154,7 +154,7 @@ a.glow:hover, a.glow:focus
 }
 
 
-#404img
+#fourOfour
 {
     position           : absolute;
     background         : url(../images/fingerlove4.jpg) no-repeat;
@@ -164,7 +164,7 @@ a.glow:hover, a.glow:focus
     transition         : opacity .2s ease-in-out;
 }
 
-#404img:hover
+#fourOfour:hover
 {
     opacity : 0.30;
 }
