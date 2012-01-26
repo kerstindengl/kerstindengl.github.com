@@ -22,7 +22,7 @@ body
 	font-family        : tommys;
 	*/
 	font-family      : adrinkforallages;
-	font-size        : 1.0em;
+	font-size        : 1.5em;
 	font-weight      : normal;
 	padding          : 20px 10%;
 	margin           : 0;
@@ -91,7 +91,7 @@ a.glow:hover, a.glow:focus
 #copyright
 {
     text-align : right;
-    font-size  : 0.5em;
+    font-size  : 0.6em;
 }
 
 #fade-transition
