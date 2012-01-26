@@ -21,8 +21,9 @@ body
 	color            : #eee;
 	/*
 	background-color : #8CB7BA;
-	*/
 	background-color : #336;
+	*/
+	background-color : #366;
 }
 
 h1, h2
@@ -88,35 +89,15 @@ a.glow:hover, a.glow:focus
     float : left;
 }
 
-.level2-345-border-radius
-{
-    -webkit-border-radius : 30px;
-    -moz-border-radius    : 20px;
-    border-radius         : 10px;
-}
 
-.level2-345-text-shadow
-{
-    text-shadow : 0px -1px 5px #000;
-}
 
-.level2-345-letterpress-effect
-{
-    color       : #222;
-    text-shadow : 0px 2px 3px #555;
-    font-size   : 2.0em;
-}
+/*
+    --------------------------------------------------------------------
+*/
 
-.level2-345-box-shadow
-{
-    box-shadow : 4px 4px 5px #282b1f;
-}
-
-.level2-345-box-shadow-inset
-{
-    box-shadow : inset 4px 4px 5px #282b1f;
-}
-
+/*
+    Fonts... grabbed from urbanfonts.com
+*/
 @font-face {
   font-family: 'Jane-Austen';
     src: url('../fonts/JaneAust.ttf') format('truetype');
