@@ -32,7 +32,12 @@ body
 	background-color : #336;
 	background-color : #366;
 	*/
+	/*
 	background-color : #336;
+	 */
+	/*
+	 */
+	background: #fff url(../images/white_paperboard.png) repeat top right;
 }
 
 
@@ -47,6 +52,13 @@ h2
 {
 	font-size  : 1.3em;
 	margin-top : 1.5em;
+}
+
+h3
+{
+	font-size   : 1.6em;
+	font-weight : normal;
+	margin      : 0;
 }
 
 p.links
@@ -71,13 +83,13 @@ a.glow, a.glow:hover, a.glow:focus
 
 a.glow:hover, a.glow:focus
 {
-	color       : #fff;
-	text-shadow : -1px 1px 8px #ffc, 1px -1px 8px #fff;
+    color       : #fff;
+    text-shadow : -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
 .textshadow a.backlit:hover, .textshadow a.backlit:focus
 {
-	color : #336;
+    color : #336;
 }
 
 #main
@@ -85,13 +97,15 @@ a.glow:hover, a.glow:focus
     height      : 500px;
     text-align  : center;
     font-size   : 1.5em;
-    line-height : 15em;
+    line-height : 10em;
 }
 
 #copyright
 {
-    text-align : right;
-    font-size  : 0.6em;
+    font-family : Jane-Austen;
+    text-align  : right;
+    font-size   : 0.8em;
+    color       : #000;
 }
 
 #fade-transition
@@ -207,20 +221,20 @@ a.glow:hover, a.glow:focus
 
     NOTE: I had to modify some selectors so they didn't break
           the other code there.
+
+    So... this won't really look like the original by the time
+    I am done, but hopefully it is some kind of attribution.
 */
 
 /* here goes css*/
-body
+header, nav
 {
-    background: #fff url(../images/white_paperboard.png) repeat top right;
-}
-
-header, nav{
     display : block;
 }
 
 
-header .main {
+header .main 
+{
     margin-bottom : 0;
     margin-left   : auto;
     margin-right  : auto;
@@ -229,13 +243,15 @@ header .main {
     width         : 100%;
 }
 
-.main-h1 {
+.main-h1 
+{
     margin-top : auto;
     padding    : 30px;
 }
 
 
-.main-ul li {
+.main-ul li 
+{
     float      : left;
     position   : relative;
     width      : 20%;
@@ -244,7 +260,8 @@ header .main {
 
 
 
-.main-ul li a {
+.main-ul li a 
+{
     display            : block;
     padding-bottom     : 20px;
     padding-right      : 10px;
@@ -260,7 +277,8 @@ header .main {
     transition         : all 0.1s;
 }
 
-.main-ul li a span{
+.main-ul li a span
+{
     display        : block;
     padding-top    : 10px;
     font-weight    : 700;
@@ -270,60 +288,69 @@ header .main {
     font-family    : 'Kotta One', serif;
 }
 
-.main-ul li:hover span{
+.main-ul li:hover span
+{
     color: #fff;
 }
 
-.main-ul li:nth-child(1):hover a{
+.main-ul li:nth-child(1):hover a
+{
     background-color  : rgba(175,54,55,0.8);
     -moz-transform    : rotate(-11deg);
     -webkit-transform : rotate(-11deg);
     -o-transform      : rotate(-11deg);
     transform         : rotate(-11deg);
 }
-.main-ul li:nth-child(2):hover a{
+.main-ul li:nth-child(2):hover a
+{
     background-color  : rgba(199, 204, 73, 0.8);
     -moz-transform    : rotate(-11deg);
     -webkit-transform : rotate(-11deg);
     -o-transform      : rotate(-11deg);
     transform         : rotate(-11deg);
 }
-.main-ul li:nth-child(3):hover a{
+.main-ul li:nth-child(3):hover a
+{
     background-color  : rgba(213, 135, 11, 0.8);
     -moz-transform    : rotate(11deg);
     -webkit-transform : rotate(11deg);
     -o-transform      : rotate(11deg);
     transform         : rotate(11deg);
 }
-.main-ul li:nth-child(4):hover a{
+.main-ul li:nth-child(4):hover a
+{
     background-color  : rgba(51, 143, 144, 0.8);
     -moz-transform    : rotate(11deg);
     -webkit-transform : rotate(11deg);
     -o-transform      : rotate(11deg);
     transform         : rotate(11deg);
 }
-.main-ul li:nth-child(5):hover a{
+.main-ul li:nth-child(5):hover a
+{
     background-color  : rgba(117,18,98,0.8);
     -moz-transform    : rotate(-11deg);
     -webkit-transform : rotate(-11deg);
     -o-transform      : rotate(-11deg);
     transform         : rotate(-11deg);
 }
-.main-ul li:nth-child(6):hover a{
+.main-ul li:nth-child(6):hover a
+{
     background-color  : rgba(33, 136, 215, 0.8);
     -moz-transform    : rotate(-11deg);
     -webkit-transform : rotate(-11deg);
     -o-transform      : rotate(-11deg);
     transform         : rotate(-11deg);
 }
-.main-ul li:nth-child(7):hover a{
+.main-ul li:nth-child(7):hover a
+{
     background-color  : rgba(109, 109, 109, 0.8);
     -moz-transform    : rotate(11deg);
     -webkit-transform : rotate(11deg);
     -o-transform      : rotate(11deg);
     transform         : rotate(11deg);
 }
-.main-ul li:nth-child(8):hover a{
+.main-ul li:nth-child(8):hover a
+{
     background-color  : rgba(152, 120, 92, 0.8);
     -moz-transform    : rotate(11deg);
     -webkit-transform : rotate(11deg);
@@ -332,7 +359,8 @@ header .main {
 }
 
 
-h1 {
+h1 
+{
     position    : relative;
     padding-top : 300px;
     font-family : 'Kotta One', serif;
@@ -344,12 +372,14 @@ h1 {
 }
 
 
-h2{
+h2
+{
     text-align : center;
 }
 
 
-h2 a{
+h2 a
+{
     position        : relative;
     font-family     : 'Kotta One', serif;
     font-weight     : 300;
