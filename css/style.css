@@ -391,4 +391,13 @@ h2 a
     text-shadow     : 0.5px #ddd;
 }
 
-
+#unsupported
+{
+    font-family : tireshop;
+    /*
+    font-family : sketchrockwell;
+    font-family : Jane-Austen;
+    */
+    font-size   : 0.8em;
+    color       : #000;
+}
