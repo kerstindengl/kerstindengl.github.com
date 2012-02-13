@@ -276,59 +276,59 @@ header .main {
 
 .main-ul li:nth-child(1):hover a{
     background-color  : rgba(175,54,55,0.8);
-    -moz-transform    : rotate(-3deg);
-    -webkit-transform : rotate(-3deg);
-    -o-transform      : rotate(-3deg);
-    transform         : rotate(-3deg);
+    -moz-transform    : rotate(-11deg);
+    -webkit-transform : rotate(-11deg);
+    -o-transform      : rotate(-11deg);
+    transform         : rotate(-11deg);
 }
 .main-ul li:nth-child(2):hover a{
     background-color  : rgba(199, 204, 73, 0.8);
-    -moz-transform    : rotate(-3deg);
-    -webkit-transform : rotate(-3deg);
-    -o-transform      : rotate(-3deg);
-    transform         : rotate(-3deg);
+    -moz-transform    : rotate(-11deg);
+    -webkit-transform : rotate(-11deg);
+    -o-transform      : rotate(-11deg);
+    transform         : rotate(-11deg);
 }
 .main-ul li:nth-child(3):hover a{
     background-color  : rgba(213, 135, 11, 0.8);
-    -moz-transform    : rotate(3deg);
-    -webkit-transform : rotate(3deg);
-    -o-transform      : rotate(3deg);
-    transform         : rotate(3deg);
+    -moz-transform    : rotate(11deg);
+    -webkit-transform : rotate(11deg);
+    -o-transform      : rotate(11deg);
+    transform         : rotate(11deg);
 }
 .main-ul li:nth-child(4):hover a{
     background-color  : rgba(51, 143, 144, 0.8);
-    -moz-transform    : rotate(3deg);
-    -webkit-transform : rotate(3deg);
-    -o-transform      : rotate(3deg);
-    transform         : rotate(3deg);
+    -moz-transform    : rotate(11deg);
+    -webkit-transform : rotate(11deg);
+    -o-transform      : rotate(11deg);
+    transform         : rotate(11deg);
 }
 .main-ul li:nth-child(5):hover a{
     background-color  : rgba(117,18,98,0.8);
-    -moz-transform    : rotate(-3deg);
-    -webkit-transform : rotate(-3deg);
-    -o-transform      : rotate(-3deg);
-    transform         : rotate(-3deg);
+    -moz-transform    : rotate(-11deg);
+    -webkit-transform : rotate(-11deg);
+    -o-transform      : rotate(-11deg);
+    transform         : rotate(-11deg);
 }
 .main-ul li:nth-child(6):hover a{
     background-color  : rgba(33, 136, 215, 0.8);
-    -moz-transform    : rotate(-3deg);
-    -webkit-transform : rotate(-3deg);
-    -o-transform      : rotate(-3deg);
-    transform         : rotate(-3deg);
+    -moz-transform    : rotate(-11deg);
+    -webkit-transform : rotate(-11deg);
+    -o-transform      : rotate(-11deg);
+    transform         : rotate(-11deg);
 }
 .main-ul li:nth-child(7):hover a{
     background-color  : rgba(109, 109, 109, 0.8);
-    -moz-transform    : rotate(3deg);
-    -webkit-transform : rotate(3deg);
-    -o-transform      : rotate(3deg);
-    transform         : rotate(3deg);
+    -moz-transform    : rotate(11deg);
+    -webkit-transform : rotate(11deg);
+    -o-transform      : rotate(11deg);
+    transform         : rotate(11deg);
 }
 .main-ul li:nth-child(8):hover a{
     background-color  : rgba(152, 120, 92, 0.8);
-    -moz-transform    : rotate(3deg);
-    -webkit-transform : rotate(3deg);
-    -o-transform      : rotate(3deg);
-    transform         : rotate(3deg);
+    -moz-transform    : rotate(11deg);
+    -webkit-transform : rotate(11deg);
+    -o-transform      : rotate(11deg);
+    transform         : rotate(11deg);
 }
 
 
