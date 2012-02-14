@@ -21,7 +21,7 @@ body
 	font-family        : tireshop;
 	font-family        : tommys;
 	*/
-	font-family      : adrinkforallages;
+	font-family        : tireshop;
 	font-size        : 1.5em;
 	font-weight      : normal;
 	padding          : 20px 10%;
@@ -102,7 +102,10 @@ a.glow:hover, a.glow:focus
 
 #copyright
 {
+    /*
     font-family : Jane-Austen;
+    */
+    font-family : tireshop;
     text-align  : right;
     font-size   : 0.8em;
     color       : #000;
@@ -285,7 +288,11 @@ header .main
     font-size      : 20px;
     color          : rgba(120, 120, 120, 0.9);
     text-transform : uppercase;
+	font-family        : splendid66;
+    /*
+    font-family    : tireshop, sans-serif;
     font-family    : 'Kotta One', serif;
+    */
 }
 
 .main-ul li:hover span
