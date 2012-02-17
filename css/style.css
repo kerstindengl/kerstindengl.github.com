@@ -464,10 +464,39 @@ h3.email span:hover
     -webkit-transform : translate(10px,100px) scale(2);
     -o-transform      : translate(10px,100px) scale(2);
     transform         : translate(10px,100px) scale(2);
-    */
-    color             : rgba(175,54,55,0.8);
     -moz-transform    : translateY(30px) scale(1.5) rotate(3deg);
     -webkit-transform : translateY(30px) scale(1.5) rotate(3deg);
     -o-transform      : translateY(30px) scale(1.5) rotate(3deg);
     transform         : translateY(30px) scale(1.5) rotate(3deg);
+    */
+    color             : rgba(175,54,55,0.4);
+    -moz-transform    : scale(1.7) rotate(3deg);
+    -webkit-transform : scale(1.7) rotate(3deg);
+    -o-transform      : scale(1.7) rotate(3deg);
+    transform         : scale(1.7) rotate(3deg);
 }
+
+h3.email span.char8:hover
+{
+    -moz-transform    : none;
+    -webkit-transform : none;
+    -o-transform      : none;
+    transform         : none;
+}
+
+h3.email span.char14:hover
+{
+    -moz-transform    : none;
+    -webkit-transform : none;
+    -o-transform      : none;
+    transform         : none;
+}
+
+h3.email span.char20:hover
+{
+    -moz-transform    : none;
+    -webkit-transform : none;
+    -o-transform      : none;
+    transform         : none;
+}
+
