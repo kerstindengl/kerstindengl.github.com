@@ -429,4 +429,45 @@ h2 a
 }
 
 
+.email
+{
+    font-size   : 2.0em;
+    color       : #123;
+}
 
+/*
+span.char14
+{
+    font-size   : 1.5em;
+    font-family : Jane-Austen;
+}
+*/
+
+h3.email span:hover
+{
+    /*
+    background-color  : rgba(175,54,55,0.8);
+    -moz-transform    : rotate(-6deg);
+    -webkit-transform : rotate(-6deg);
+    -o-transform      : rotate(-6deg);
+    transform         : rotate(-6deg);
+    -moz-transform    : skew(5) rotate(-9deg) scale(2);
+    -webkit-transform : skew(5) rotate(-9deg) scale(2);
+    -o-transform      : skew(5) rotate(-9deg) scale(2);
+    transform         : skew(5) rotate(-9deg) scale(2);
+    -moz-transform    : rotate(10deg) scale(2);
+    -webkit-transform : rotate(10deg) scale(2);
+    -o-transform      : rotate(10deg) scale(2);
+    transform         : rotate(10deg) scale(2);
+    background-color  : rgba(175,54,55,0.8);
+    -moz-transform    : translate(10px,100px) scale(2);
+    -webkit-transform : translate(10px,100px) scale(2);
+    -o-transform      : translate(10px,100px) scale(2);
+    transform         : translate(10px,100px) scale(2);
+    */
+    color             : rgba(175,54,55,0.8);
+    -moz-transform    : translateY(30px) scale(1.5) rotate(3deg);
+    -webkit-transform : translateY(30px) scale(1.5) rotate(3deg);
+    -o-transform      : translateY(30px) scale(1.5) rotate(3deg);
+    transform         : translateY(30px) scale(1.5) rotate(3deg);
+}
