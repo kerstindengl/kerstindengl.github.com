@@ -1,6 +1,14 @@
+# Mac shit
 .DS_Store
+
+# standard...
 tmp/**/*
 tmp/
 log/*.log
+
+# vim leave behinds
+*.swp
+
+# other...
 aaronwhite/
 fonts/tmp
