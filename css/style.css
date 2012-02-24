@@ -100,6 +100,18 @@ a.glow:hover, a.glow:focus
     line-height : 10em;
 }
 
+#gallery
+{
+    display      : block;
+    margin-left  : auto;
+    margin-right : auto;
+}
+
+#gallery p
+{
+    padding : 100px;
+}
+
 #copyright
 {
     /*
