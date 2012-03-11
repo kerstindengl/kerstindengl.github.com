@@ -481,7 +481,7 @@ h3.email span:hover
     -o-transform      : translateY(30px) scale(1.5) rotate(3deg);
     transform         : translateY(30px) scale(1.5) rotate(3deg);
     */
-    color             : rgba(175,54,55,0.4);
+    color             : rgba(105,94,55,0.4);
     -moz-transform    : scale(1.7) rotate(3deg);
     -webkit-transform : scale(1.7) rotate(3deg);
     -o-transform      : scale(1.7) rotate(3deg);
@@ -498,6 +498,7 @@ h3.email span.char8:hover
 
 h3.email span.char14:hover
 {
+    color             : rgba(0,255,0,0.8);
     -moz-transform    : none;
     -webkit-transform : none;
     -o-transform      : none;
